@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/salesbackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/transparent"
+        android:src="@drawable/icon_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_history"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/salesbackbtn" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/txview3"
+        >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <!--        />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="25dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/fscv">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyrview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/showhisbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/addprobtnback"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Show All"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/historyrview"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fscv"
+        android:padding="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cardCornerRadius="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="250dp"
+        android:id="@+id/fpcv">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_analytics"
+        android:gravity="center_vertical"
+        android:text="Sales Analytics"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        android:fontFamily="@font/ubuntu_medium"
+        android:id="@+id/salesanbtn"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_return"
+        android:gravity="center_vertical"
+        android:text="Returns"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/salesanbtn2"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/salesanbtn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_trendup"
+        android:gravity="center_vertical"
+        android:text="Market Demand"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/salesanbtn3"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/salesanbtn2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+<!--    <View-->
+<!--        android:id="@+id/part2"-->
+<!--        android:layout_width=" match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:layout_marginVertical="30dp"-->
+<!--        android:background="@color/gray"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/salesanbtn3" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

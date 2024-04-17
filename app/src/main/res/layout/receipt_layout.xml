@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/closereceiptlayoutbtn"
+        android:src="@drawable/icon_cancel"
+        app:tint="@color/gray"
+        android:layout_gravity="end"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        >
+    <LinearLayout
+        android:id="@+id/receipt"
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/receiptshopnametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHOP NAME"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/receiptshopnametxt"
+            android:id="@+id/receiptShopphonenumber"
+            android:text="Phone Number : 9895491556"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/receiptShopphonenumber"
+            android:id="@+id/receiptshopaddresstxt"
+            android:text="Address : Periya, Kasaragod, Kerala"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/receiptshopaddresstxt"
+            android:id="@+id/rltxt4"
+            android:text="****** Receipt ******"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/rltxt4"
+            android:id="@+id/receiptnotxt"
+            android:text="Receipt No : 1242"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/receiptnotxt"
+            android:id="@+id/receiptdatetxt"
+            android:text="Date : 09-08-2022"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/receiptdatetxt"
+            android:id="@+id/receipttimetxt"
+            android:text="Time : 12:34"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/receipttimetxt">
+        <TableRow android:padding="5dp" android:background="@color/colorPrimary">
+            <TextView
+                android:text="Si No"
+                android:textColor="@color/white"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:fontFamily="@font/ubuntu_medium"
+                />
+            <TextView
+                android:text="Name"
+                android:layout_width="100dp"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/ubuntu_medium"
+                />
+            <TextView
+                android:text="Qty"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:fontFamily="@font/ubuntu_medium"
+                />
+            <TextView
+                android:text="Price"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:width="50dp"
+                android:fontFamily="@font/ubuntu_medium"
+                />
+            <TextView
+                android:text="Amount"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:width="100dp"
+                android:gravity="center"
+                android:fontFamily="@font/ubuntu_medium"
+                />
+
+        </TableRow>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/receiptRecyclerView"
+            />
+        </androidx.core.widget.NestedScrollView>
+
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGST : 0.0"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SGST : 0.0"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="15sp"
+            android:gravity="center" />
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Amount : 100000"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/receipttamounttxt"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="****** Thank You ❤ ******"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"/>
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+
+        <Button
+            android:id="@+id/receiptsharebtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:text="Share"
+            android:backgroundTint="@color/gogreen"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/icon_share"
+
+            />
+    <Button
+        android:id="@+id/receiptsavebtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="Save"
+        android:backgroundTint="@color/okblue"
+        android:textAllCaps="false"
+        android:drawableEnd="@drawable/icon_save"
+
+        />
+
+
+</LinearLayout>

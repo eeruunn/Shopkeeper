@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/addprobtnback.xml" value="0.234" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/alercardback.xml" value="0.18" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/backbtnback.xml" value="0.234" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/generate_billbtnback.xml" value="0.1855" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/home_layout_background.xml" value="0.199" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/homeanalyticsback.xml" value="0.238" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_add.xml" value="0.2115" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_addcircle.xml" value="0.2115" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_addgreen.xml" value="0.2115" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_calendar.xml" value="0.2195" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_icon_cancel.xml" value="0.163" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_launcher_background.xml" value="0.233" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_products.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_reciept.xml" value="0.1915" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_remove.xml" value="0.2115" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/ic_return.xml" value="0.2555" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_devices.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_done.xml" value="0.163" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_home.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_products.xml" value="0.1935" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_remove.xml" value="0.1935" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_rupee.xml" value="0.1935" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_scan.xml" value="0.1955" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_settings.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_share.xml" value="0.2405" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_stock.xml" value="0.2555" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_trendup.xml" value="0.2555" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/icon_unit.xml" value="0.234" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/input_background.xml" value="0.2025" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/popup_background.xml" value="0.2025" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/product_background.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/salesbtnback.xml" value="0.2195" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/searchbackground.xml" value="0.217" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/drawable/wlcdashback.xml" value="0.2545" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_add_product.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_chart.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_restock.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_return_pro.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/activity_splash.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/aysalert_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/datepicker_layout.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/dialog_editbatch.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/dialog_scansbatch.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/dropdownitem.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_analytics.xml" value="0.20436083796494228" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_editproduct.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_exppros.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_products.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_productss.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_returnproduct.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_returns.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_rpd.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_sales.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_settings.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/fragment_viewproducts.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/homefragcopy.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/item_addprobatch.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/item_editprobatch.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/item_exppro.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/item_returned.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/item_scansbatch.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/newpro_scandialog.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/product_background.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/product_item.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/receipt_layout.xml" value="0.342534504391468" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/reciept_item.xml" value="0.1923899102180419" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/returnsuccessfulldialog.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/sales_item.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/saleshistoryfragment.xml" value="0.3294736842105263" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/scan_manual_entry_popup.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/scanactivity.xml" value="0.23524720893141945" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/scanned_item.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/layout/scansavesuccessdialog.xml" value="0.311601150527325" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/menu/bottomnavmenu.xml" value="0.1875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Shopkeeper/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.233" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/txtsi"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="1"
+                android:gravity="center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/ubuntu_medium"/>
+            <TextView
+                android:id="@+id/productitempname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Product Name"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/txtsi"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/productitemmrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/productitempname"
+                app:layout_constraintLeft_toRightOf="@id/txtsi"
+                android:text="Mrp"
+                android:fontFamily="@font/ubuntu_light"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/productitemunit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/productitemmrp"
+                app:layout_constraintLeft_toRightOf="@id/txtsi"
+                android:text="Unit"
+                android:fontFamily="@font/ubuntu_light"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/productitemstock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/productitemunit"
+                app:layout_constraintLeft_toRightOf="@id/txtsi"
+                android:text="Stocks"
+                android:fontFamily="@font/ubuntu_light"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+            <ImageView
+                android:id="@+id/productdeletebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:src="@drawable/icon_delete_red"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

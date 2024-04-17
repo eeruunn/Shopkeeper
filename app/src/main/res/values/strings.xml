@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shopkeeper</string>
+    <string name="done">Done</string>
+    <string name="weekly_sales">Weekly Sales</string>
+    <string name="most_selling">Most Selling</string>
+    <string name="more_coming_soon">More Coming Soon</string>
+    <string name="scan">Scan</string>
+</resources>

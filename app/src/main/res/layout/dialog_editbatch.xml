@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardCornerRadius="25dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt9"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="20dp"
+                android:text="#1"
+                android:textColor="@color/gray"
+                app:layout_constraintBottom_toTopOf="@id/debtxt7"
+                android:textSize="20sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt7"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@id/debtxt9"
+                android:layout_marginTop="20dp"
+                android:text="Batch Number :"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/debbatchno"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/debtxt7"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/debbatchnoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="15sp"
+                    android:inputType="textPersonName"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt8"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@id/debbatchno"
+                android:layout_marginTop="20dp"
+                android:text="Purchase Price* :"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/debpprice"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/debtxt8"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/debppricein"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:inputType="numberDecimal"
+                    android:textSize="15sp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@id/debpprice"
+                android:layout_marginTop="20dp"
+                android:text="Retail Price* :"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/debrprice"
+                android:layout_width="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/debtxt2"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/debrpricein"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:inputType="numberDecimal"
+                    android:textSize="15sp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt4"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@id/debrprice"
+                android:layout_marginTop="20dp"
+                android:text="Stock* :"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/debstock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/debtxt4"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/debstockin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="15sp"
+                    android:inputType="number"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/debtxt6"
+                app:layout_constraintTop_toBottomOf="@id/debstock"
+                android:layout_marginTop="20dp"
+                android:text="Expiry Date :"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/debexpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/debtxt6"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/debexpdatein"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:textSize="15sp"
+
+                    android:inputType="textPersonName"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/debexpdate">
+
+                <Button
+                    android:id="@+id/debdonebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_margin="15dp"
+                    android:text="Done"
+
+                    android:textAllCaps="false"
+                    android:drawableEnd="@drawable/icon_done"
+
+                    />
+
+                <Button
+                    android:id="@+id/debcancelbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_margin="15dp"
+                    android:text="Cancel"
+                    android:backgroundTint="@color/closered"
+                    android:textAllCaps="false"
+                    android:drawableEnd="@drawable/icon_cancel"
+                    />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

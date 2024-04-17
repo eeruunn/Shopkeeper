@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/addprobackbtn"
+        android:layout_margin="20dp"
+        android:src="@drawable/icon_back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/addprobackbtn"
+        android:textAllCaps="false"
+        android:text="Return Product"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txview3"
+        android:textSize="25sp"/>
+
+    <SurfaceView
+        android:id="@+id/returnprocamview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txview3"/>
+    <LinearLayout
+        android:id="@+id/frplv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/returnprocamview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/arpqtydbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remove"
+            android:backgroundTint="@color/transparent"
+            />
+        <TextView
+            android:id="@+id/returnproqty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/black"/>
+        <ImageButton
+            android:id="@+id/arpqtyibtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:backgroundTint="@color/transparent"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/frptxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reason ( optional ):"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frplv1"/>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/returnproreasonetl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/frptxt1"
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/arpreasonet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="textPersonName"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:background="#edebf0"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/ubuntu_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAllCaps="false"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/addprodonebtn"
+        android:text="@string/done"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/addprobackbtn"
+        android:layout_margin="20dp"
+        android:src="@drawable/icon_back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/addprobackbtn"
+        android:textAllCaps="false"
+        android:text="Products"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txview3"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txview3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/fvpll1">
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txview3"
+        android:layout_margin="20dp"
+        android:id="@+id/product_searchview"
+        android:elevation="5dp"
+        app:queryHint="Search"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@color/transparent"
+        android:background="@drawable/searchbackground"
+        />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="250dp"
+        android:id="@+id/productrecyclerview"
+        app:layout_constraintTop_toBottomOf="@+id/fvpll1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

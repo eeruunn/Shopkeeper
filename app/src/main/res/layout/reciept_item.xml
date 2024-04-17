@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow android:layout_marginTop="5dp" android:padding="5dp" android:background="@color/vlgpurple">
+        <TextView
+            android:id="@+id/rsino"
+            android:text="1"
+            android:textColor="@color/black"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:id="@+id/rname"
+            android:layout_width="100dp"
+            android:text="classmate 120pg medium notebook unruled"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:id="@+id/rqty"
+            android:text="200"
+            android:layout_width="50dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:id="@+id/rmrp"
+            android:text="500"
+            android:layout_width="50dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+        <TextView
+            android:id="@+id/ramount"
+            android:text="100000"
+            android:layout_width="100dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            />
+
+    </TableRow>
+
+</TableLayout>

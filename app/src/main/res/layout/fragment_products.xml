@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/settingsbackbtn"
+        android:backgroundTint="@color/transparent"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/settingsbackbtn"
+        android:textAllCaps="false"
+        android:text="Products"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txview3"
+        android:textSize="25sp"/>
+    <!--    <View-->
+    <!--        android:id="@+id/part2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="1dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_marginVertical="30dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/txview3" />-->
+    <!--    -->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:id="@+id/settingll1"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/part2"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        >-->
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+    <!--            <ImageView-->
+    <!--                android:layout_width="150dp"-->
+    <!--                android:layout_height="150dp"-->
+    <!--                android:src="@mipmap/ic_launcher_round"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                android:id="@+id/settingdp"-->
+    <!--                app:layout_constraintEnd_toStartOf="@+id/settingshopname"/>-->
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:text="Lulu Supermarket"-->
+    <!--                android:id="@+id/settingshopname"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toEndOf="@id/settingdp"-->
+    <!--                android:gravity="center"-->
+    <!--                android:textSize="20sp"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:fontFamily="@font/ubuntu_bold"/>-->
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--    </LinearLayout>-->
+    <!--    <View-->
+    <!--        android:id="@+id/part1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="1dp"-->
+    <!--        android:layout_marginHorizontal="10dp"-->
+    <!--        android:layout_marginVertical="30dp"-->
+    <!--        android:background="@color/gray"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/settingll1" />-->
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/txview3"
+    android:padding="30dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:cardCornerRadius="25dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/fpcv">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/gray"
+        android:drawableLeft="@drawable/ic_shoppingbag"
+
+        android:paddingStart="20dp"
+        android:gravity="center_vertical"
+        android:text="View Products"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:id="@+id/productsviewbtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_add"
+        android:gravity="center_vertical"
+        android:text="Add New Product"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/productsaddbtn"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/productsviewbtn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_category"
+        android:gravity="center_vertical"
+        android:text="Categories"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/productscatbtn"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/productsaddbtn" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_warningcd"
+        android:gravity="center_vertical"
+        android:text="Expired Products"
+        android:textAllCaps="false"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/productsexpbtn"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/productscatbtn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:paddingStart="20dp"-->
+<!--        android:drawableLeft="@drawable/ic_share"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:text="Share"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:id="@+id/settingshare"-->
+<!--        style="?android:attr/borderlessButtonStyle"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/settinghelp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
